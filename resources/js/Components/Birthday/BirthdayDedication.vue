@@ -6,9 +6,6 @@
                 <h2 class="text-3xl md:text-4xl font-bold text-purple-800 mb-4">
                     Dedicatoria Especial
                 </h2>
-                <p class="text-lg text-gray-600 mb-6">
-                    Mensajes de amor y cariño para una mujer extraordinaria
-                </p>
                 <div class="w-24 h-1 bg-gradient-to-r from-pink-500 to-purple-600 mx-auto rounded-full"></div>
             </div>
 
@@ -79,13 +76,13 @@ const shareInvitation = () => {
     if (navigator.share) {
         navigator.share({
             title: '¡Feliz Cumpleaños Dominga! - 90 Años',
-            text: 'Invitación al cumpleaños de Dominga Nieves Anicetos. 19 de Julio a las 5:00 PM en Juan Escutia N° 11',
+            text: 'Invitación al cumpleaños de Dominga Nieves Aniceto. 19 de Julio a las 5:00 PM en Juan Escutia N° 11',
             url: window.location.href
         });
     } else {
         // Fallback para navegadores que no soportan Web Share API
         const url = window.location.href;
-        const text = '¡Feliz Cumpleaños Dominga! - 90 Años\n\nInvitación al cumpleaños de Dominga Nieves Anicetos.\nFecha: 19 de Julio a las 5:00 PM\nLugar: Juan Escutia N° 11\n\n' + url;
+        const text = '¡Feliz Cumpleaños Dominga! - 90 Años\n\nInvitación al cumpleaños de Dominga Nieves Aniceto.\nFecha: 19 de Julio a las 5:00 PM\nLugar: Juan Escutia N° 11\n\n' + url;
         
         if (navigator.clipboard) {
             navigator.clipboard.writeText(text).then(() => {

@@ -21,7 +21,7 @@
             <!-- Nombre de la cumpleañera -->
             <div class="mb-8">
                 <h2 class="text-3xl md:text-5xl font-serif text-purple-700 mb-2">
-                    Dominga Nieves Anicetos
+                    Dominga Nieves Aniceto
                 </h2>
                 <div class="text-2xl md:text-4xl font-bold text-yellow-600 animate-pulse">
                     ¡90 Años de Amor y Vida!

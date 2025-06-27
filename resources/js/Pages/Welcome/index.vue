@@ -6,6 +6,7 @@ import BirthdayMusic from '@/Components/Birthday/BirthdayMusic.vue';
 import BirthdayDetails from '@/Components/Birthday/BirthdayDetails.vue';
 import BirthdayGallery from '@/Components/Birthday/BirthdayGallery.vue';
 import BirthdayMap from '@/Components/Birthday/BirthdayMap.vue';
+import BirthdayReception from '@/Components/Birthday/BirthdayReception.vue';
 import BirthdayDedication from '@/Components/Birthday/BirthdayDedication.vue';
 import BirthdayFooter from '@/Components/Birthday/BirthdayFooter.vue';
 import { useMusicStore } from '@/stores/useMusicStore';
@@ -48,6 +49,7 @@ onUnmounted(() => {
             <BirthdayDetails />
             <BirthdayGallery />
             <BirthdayMap />
+            <BirthdayReception />
             <BirthdayDedication />
             <BirthdayFooter />
         </div>
