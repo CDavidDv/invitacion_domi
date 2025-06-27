@@ -18,18 +18,8 @@ class DashboardController extends Controller
      */
     public function index(): Response
     {
-        $sections = ['logo', 'welcome', 'hero', 'project_1', 'project_2', 'project_3', 'project_4', 'project_5', 'project_6', 'project_7', 'project_8', 'project_9'];
-        $content = [];
-        $media = [];
-
-        foreach ($sections as $section) {
-            $content[$section] = WorkContent::getSectionContent($section);
-            $media[$section] = Media::where('section', $section)->get();
-        }
-        return Inertia::render('Welcome/index', [
-            'workContent' => $content,
-            'media' => $media
-        ]);
+      
+        return Inertia::render('Welcome/index');
     }
 
     public function edit(): Response
