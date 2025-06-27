@@ -17,7 +17,7 @@
                     <h3 class="text-2xl font-bold text-purple-800 mb-4">Fecha y Hora</h3>
                     <div class="space-y-2">
                         <p class="text-xl font-semibold text-gray-800">
-                            Viernes, 19 de Julio
+                            Sábado, 19 de Julio
                         </p>
                         <p class="text-2xl font-bold text-pink-600">
                             5:00 PM
